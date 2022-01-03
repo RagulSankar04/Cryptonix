@@ -1,0 +1,156 @@
+/* html,body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    height:1000px;
+}   */
+ body{
+    line-height: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* box-sizing: border-box;
+    height:100px;
+    margin:0px;
+    padding:0px; */
+    overflow-x : hidden;
+} 
+.headingone{
+    text-decoration: none;
+    color:black;
+    display:flex;
+    justify-content: center;
+    transition:color 500ms ease-in 150ms;
+}
+
+.headingone:hover{
+    color:rgb(56, 85, 85);
+}
+.wib{
+    display: flex;
+    justify-content: center;
+}
+.wibqone{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    /* transform: translate(439px,35px); */
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.wibone{
+    width : 390px;
+    height:350px;
+    transform: translate(200px,30px);
+
+}
+.wibtwo{
+    width : 390px;
+    height:350px;
+    transform: translate(-190px,235px);
+}
+.wibthree{
+    width : 390px;
+    height:350px;
+    transform: translate(440px,95px);
+}
+.containerone{
+    width:350px;
+    height: 390px;
+    transform: translate(30px,-595px); 
+}
+.containertwo{
+    width:350px;
+    height: 300px;
+    transform: translate(900px,-600px);
+    /* display: flex;
+    justify-content: end;
+    flex-direction: row-reverse; */
+}
+.keyhead{
+    font-weight: 500;
+    margin: -600px 0px 0px 300px;
+    text-decoration: underline black solid;
+}
+.imgseven{
+     margin-left:390px;
+}
+ /* .containerr{
+        margin-top:-30px; 
+        margin-left:-300px;
+
+} */
+.lione{
+    margin-top: 5px;
+    width: 600px;
+    height:70px;
+}
+ul{
+    margin: 30px 0px 0px 340px;
+}
+/* @media (max-width:400px) {
+    .container1{
+transform:translateY(-700px);
+}
+
+    .heading{
+        display: flex;
+        justify-content: center;
+    }
+    .wib{
+        transform: translateY(900px);
+    }
+} */
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) { 
+    .container1{
+        transform:translate(200px,-100px);
+        }
+        
+    .headingone{
+        display: flex;
+        justify-content: center;
+        }
+        .wibq{
+            transform: translate(280px,10px); 
+        }
+        .wib{
+            transform:translate(20px,300px);
+        }
+ }
+ @media (min-width:1000px) and (max-width:1200px){
+    .containerone{
+        transform: translate(23em,-43rem);
+        }
+    .headingone{
+        display: flex;
+        justify-content:center;
+        }
+    .wibqone{
+        /* transform: translate(600px,10px);   */
+        display: flex;
+        justify-content: center;
+        }
+    .wib{
+        transform:translate(20px,300px);
+        }
+    .containertwo{
+        transform: translateY(800px);
+    } 
+    .wibthree{
+        transform: translate(23.54rem,25rem);
+    }   
+ }
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
