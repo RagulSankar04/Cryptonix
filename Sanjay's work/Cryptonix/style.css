@@ -1,0 +1,60 @@
+.head{
+    padding-left: 70px;
+    text-decoration: underline;
+}
+.neck{
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.pic{
+    padding-left: 250px;
+}
+.ext{
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.ext2{
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.ext3{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.ext4{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.impacts{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.first{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.second{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.third{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+.bottom{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}

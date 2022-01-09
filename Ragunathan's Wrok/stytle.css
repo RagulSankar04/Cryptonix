@@ -1,0 +1,74 @@
+body{
+    background-image: url(imaes/back2.jfif); 
+    background: radial-graient(#fff,#00FF7C);
+}
+.WEB{
+    font-size:25px;
+    padding-left: 70px;
+    font-weight: 10px;
+    padding-top: 40px;
+    color:;
+}
+.web1{
+    padding-left: 50px;
+    
+}
+.web2{
+    padding-left: 30px;
+}
+.hmm{
+    padding-left: 35px;
+}
+.hmm1{
+    padding-left: 45px;
+}
+.qwe{
+    padding-left: 20px;
+    text-decoration: underline;
+}
+.asd{
+    padding-left: 50px;
+    }
+.bigimg{
+    padding-top: 30px;
+    padding-left: 190px;
+    
+}
+.ez{
+    text-align: center;
+    text-decoration: underline;
+}
+.hea{
+    font-size: 90px;
+    text-align: center;
+    text-decoration: underline;
+    color:;
+    }
+.und{
+    text-decoration: underline;
+}
+.webfir{
+    padding-left: 400px;
+}
+.websec{
+    padding-left: 400px;
+}
+.webthi{
+    padding-left: 400px;
+}
+.ert{
+    text-align: center;
+    text-decoration: underline;
+}
+.tabhead{
+    text-align: center;
+    text-decoration: underline;
+}
+.col{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.ert{
+    padding-top: 40px;
+}
